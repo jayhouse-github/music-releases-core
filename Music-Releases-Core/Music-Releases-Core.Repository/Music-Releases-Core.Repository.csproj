@@ -5,4 +5,7 @@
     <RootNamespace>Music_Releases_Core.Repository</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Enums\" />
+  </ItemGroup>
 </Project>
