@@ -14,7 +14,7 @@ namespace Music_Releases_Core.Csole
 
         static void Main(string[] args)
         {
-            var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json");
+            var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("passes.json");
             Configuration = builder.Build();
 
             var AmazonAccessId = Configuration["AmazonAccessId"];
