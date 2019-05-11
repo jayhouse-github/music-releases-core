@@ -4,6 +4,7 @@ using System.Web;
 using System.Xml;
 using System.Net;
 using Music_Releases_Core.Repository.Interfaces;
+using Music_Releases_Core.Repository.Enums;
 
 namespace Music_Releases_Core.Repository
 {

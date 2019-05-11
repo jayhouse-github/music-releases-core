@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Music_Releases_Core.Repository.Enums;
 using Music_Releases_Core.Repository.Interfaces;
 
 namespace Music_Releases_Core.BL
@@ -38,7 +39,7 @@ namespace Music_Releases_Core.BL
                 });
 
                 var searchTerm = amazonSearchResult.Artist + " " + amazonSearchResult.Title;
-                var mp3Result = amazonSearch.GetBySearchTerm(searchTerm, Repository.SearchIndex.MP3);
+                var mp3Result = amazonSearch.GetBySearchTerm(searchTerm, SearchIndex.MP3);
 
                 if (mp3Result != null)
                 {

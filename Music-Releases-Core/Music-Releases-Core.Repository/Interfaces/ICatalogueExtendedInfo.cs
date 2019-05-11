@@ -1,4 +1,5 @@
 ﻿using System;
+
 namespace Music_Releases_Core.Repository.Interfaces
 {
     public interface ICatalogueExtendedInfo : ICatalogueInfo

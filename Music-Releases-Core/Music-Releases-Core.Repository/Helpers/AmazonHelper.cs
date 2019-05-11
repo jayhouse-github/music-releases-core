@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Xml;
+using Music_Releases_Core.Repository.Interfaces;
 
 namespace Music_Releases_Core.Repository.Helpers
 {
