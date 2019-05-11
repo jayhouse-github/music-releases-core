@@ -10,12 +10,12 @@ namespace Music_Releases_Core.Csole
 {
     public class Program
     {
-        static Configuration Configuration { get; set; }
+        //static Configuration Configuration { get; set; }
 
         static void Main(string[] args)
         {
             var builder = new ConfigurationBuilder().SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("passes.json");
-            Configuration = builder.Build();
+            var Configuration = builder.Build();
 
             var AmazonAccessId = Configuration["AmazonAccessId"];
             var AmazonEndPoint = Configuration["AmazonEndPoint"];
