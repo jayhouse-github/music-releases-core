@@ -5,4 +5,7 @@
     <RootNamespace>Music_Releases_Core.BL</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Music-Releases-Core.Repository\Music-Releases-Core.Repository.csproj" />
+  </ItemGroup>
 </Project>

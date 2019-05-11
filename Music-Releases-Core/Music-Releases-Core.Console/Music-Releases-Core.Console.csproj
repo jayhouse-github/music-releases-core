@@ -11,4 +11,8 @@
       <HintPath>..\..\..\..\..\..\..\..\usr\local\share\dotnet\sdk\NuGetFallbackFolder\microsoft.extensions.configuration\2.1.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll</HintPath>
     </Reference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Music-Releases-Core.BL\Music-Releases-Core.BL.csproj" />
+    <ProjectReference Include="..\Music-Releases-Core.Repository\Music-Releases-Core.Repository.csproj" />
+  </ItemGroup>
 </Project>

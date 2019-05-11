@@ -6,11 +6,11 @@ using Music_Releases_Core.Repository;
 using Microsoft.Extensions.Configuration;
 using System.IO;
 
-namespace Music_Releases_Core.Console
+namespace Music_Releases_Core.Csole
 {
-    class Program
+    public class Program
     {
-        static IConfiguration Configuration { get; set; }
+        static Configuration Configuration { get; set; }
 
         static void Main(string[] args)
         {
@@ -27,7 +27,7 @@ namespace Music_Releases_Core.Console
             var amazonSearchRepo = new AmazonSearchRepository(AmazonAccessId, AmazonEndPoint, AmazonAssociateTag, AmazonSecretKey);
             var amazonItemRepo = new AmazonItemRepository(AmazonAccessId, AmazonEndPoint, AmazonAssociateTag, AmazonSecretKey);
 
-            Console.WriteLine("1. Search from comma searated list.");
+            System.Console.WriteLine("1. Search from comma searated list.");
             Console.WriteLine("2. Search from ASIN.");
             Console.WriteLine("Please select.");
             string answer = Console.ReadLine();
